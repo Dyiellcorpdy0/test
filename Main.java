@@ -28,6 +28,6 @@ public class Main {
         Zij = pow(B, Xi) % p;
         System.out.println("Общий секретный ключ первого пользователя " + Zij);
         Zji = pow(A, Xj) % p;
-        System.out.println("Общий секретный ключ второго пользователя " + Zji);
+
     }
 }
