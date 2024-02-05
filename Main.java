@@ -14,18 +14,7 @@ public class Main {
             System.out.println("Ошибка, секретное число должно быть больше 0");
             return;
         }
-        int Xj= scanner.nextInt();
-        if(Xj<0) {
-            System.out.println("Ошибка, секретное число должно быть больше 0");
-            return;
+
         }
-        A = pow( a, Xi ) % p;
-        System.out.println("Публичное число первого пользователя " + A);
-        B = pow( a, Xj ) % p;
-        System.out.println("Публичное число второго пользователя " + B);
-        Zij = pow(B, Xi) % p;
-        System.out.println("Общий секретный ключ первого пользователя " + Zij);
-        Zji = pow(A, Xj) % p;
-        System.out.println("Общий секретный ключ второго пользователя " + Zji);
-    }
+
 }
